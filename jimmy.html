@@ -38,6 +38,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Membership</a>
             </li>
+            <li class="nav-item">
+                <!-- <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Log in
+                  </button> -->
+                <span data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="nav-link">Login</span>
+            </li>
         </ul>
     </nav>
     <div class="execrise">
@@ -74,6 +80,29 @@
         </div>
     </div>
     <footer>Made by anonymous</footer>
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-itself">
+                        <input type="text" placeholder="Email">
+                        <br>
+                        <input type="password" placeholder="Password">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
